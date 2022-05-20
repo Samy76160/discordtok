@@ -35,9 +35,9 @@ def safe_print(arg):
 def thread_starter():
     global counter
     if option == 1:
-        obj = spotify(spotify_profile, proxies[proxy_counter])
+        obj = spotify(https://open.spotify.com/artist/7DCtm1ddOP66A4WQ2QexA8, proxies[proxy_counter])
     else:
-        obj = spotify(spotify_profile)
+        obj = spotify(https://open.spotify.com/artist/7DCtm1ddOP66A4WQ2QexA8)
     result, error = obj.follow()
     if result == True:
         counter += 1
